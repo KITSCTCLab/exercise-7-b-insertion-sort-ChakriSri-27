@@ -6,8 +6,8 @@ def insertionSort(array) -> List[int]:
         num = n-1
         while num >= 0 and key < array[num]:
             array[num + 1] = array[num]
-            num -= 
-        array[num + 1] = 
+            num -= 1
+        array[num + 1] = key
     return array
 # data = [9, 5, 1, 4, 3]
 input_data = input()
