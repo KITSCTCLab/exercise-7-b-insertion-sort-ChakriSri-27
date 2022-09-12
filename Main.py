@@ -3,10 +3,10 @@ from typing import List
 def insertionSort(array) -> List[int]:
     for n in range(1,len(array)):
         key = array[n]
-        num = 
+        num = n-1
         while num >= 0 and key < array[num]:
             array[num + 1] = array[num]
-            num -= 1
+            num -= 
         array[num + 1] = key
     return array
 # data = [9, 5, 1, 4, 3]
